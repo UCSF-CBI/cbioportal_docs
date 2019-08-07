@@ -20,7 +20,7 @@
     * [Are there any normal tissue samples available through cBioPortal?](#are-there-any-normal-tissue-samples-available-through-cbioportal)
     * [Can I download all data at once?](#can-i-download-all-data-at-once)
     * [How current is the data in the portal?](#how-current-is-data-in-the-portal)
-    * [The data or portal user interface today is different than the last time I looked. What happened?](#the-data-or-portal-user-interface-today-is-different-than-the-last-time-I-looked-what-happened) . 
+    * [The data or portal user interface today is different than the last time I looked. What happened?](#the-data-or-portal-user-interface-today-is-different-than-the-last-time-I-looked-what-happened) .
     * [How do I access data from AACR Project GENIE?](#how-do-i-access-data-from-aacr-project-genie)
   * [DNA (Mutations, Copy Number &amp; Fusions)](#dna-mutations-copy-number--fusions)
     * [Does the cBioPortal contain synonymous mutation data?](#does-the-cbioportal-contain-synonymous-mutation-data)
@@ -142,7 +142,7 @@ cBioPortal supports the annotation of variants from several different databases.
 
 * A future version of UCSF cBioPortal will include the manually-derived pathogenicity annotations in both the OncoPrint view and the Mutations view.
 
-![image]([https://cdn2.hubspot.net/hubfs/3339577/Blog%20images/cbio_drivers.png](https://cdn2.hubspot.net/hubfs/3339577/Blog%20images/cbio_drivers.png)).
+<img src="images/cbio_drivers.png" width="35%">
 
 ### What version of the human reference genome is being used in cBioPortal?
 
@@ -322,7 +322,7 @@ There is currently no way to definitively determine whether a mutation is hetero
 
 OncoPrints are compact means of visualizing distinct genomic alterations, including somatic mutations, copy number alterations, and mRNA expression changes across a set of cases. They are extremely useful for visualizing gene set and pathway alterations across a set of cases, and for visually identifying trends, such as trends in mutual exclusivity or co-occurrence between gene pairs within a gene set. Individual genes are represented as rows, and individual cases or patients are represented as columns.
 
-![image](https://cloud.githubusercontent.com/assets/840895/24209131/d34e33b2-0efb-11e7-945a-fd2b3c66d195.png)
+![image](images/oncoprint.png)
 
 ### Can I change the order of genes in the OncoPrint?
 
