@@ -142,7 +142,7 @@ cBioPortal supports the annotation of variants from several different databases.
 
 * A future version of UCSF cBioPortal will include the manually-derived pathogenicity annotations in both the OncoPrint view and the Mutations view.
 
-<img src="images/cbio_drivers.png" width="35%">
+<img src="https://raw.githubusercontent.com/UCSF-CBC/cbioportal_docs/master/docs/images/cbio_drivers.png" width="35%">
 
 ### What version of the human reference genome is being used in cBioPortal?
 
@@ -322,7 +322,7 @@ There is currently no way to definitively determine whether a mutation is hetero
 
 OncoPrints are compact means of visualizing distinct genomic alterations, including somatic mutations, copy number alterations, and mRNA expression changes across a set of cases. They are extremely useful for visualizing gene set and pathway alterations across a set of cases, and for visually identifying trends, such as trends in mutual exclusivity or co-occurrence between gene pairs within a gene set. Individual genes are represented as rows, and individual cases or patients are represented as columns.
 
-![image](images/oncoprint.png)
+![image](https://github.com/UCSF-CBC/cbioportal_docs/blob/master/docs/images/oncoprint.png?raw=true)
 
 ### Can I change the order of genes in the OncoPrint?
 
