@@ -9,6 +9,7 @@
 * There are several known bugs we have reported to the cBioPortal development team:
   * You cannot query for genes from the study summary view page; only from the Query tab of the homepage.
   * **H3F3A variants are showing up as H3F3B variants in portal!!** We have reported this issue to the cBioPortal development team and a fix is on the way shortly!
+  * Some fusions are not showing up in the portal; we are in the process of investigating the source cause of this.
 * Primary site
   * This is derived directly from the UCSF500 report and actually represents the source location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
 
