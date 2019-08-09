@@ -29,7 +29,7 @@
     * [How are protein domains in the mutational lollipop diagrams specified?](#how-are-protein-domains-in-the-mutational-lollipop-diagrams-specified)
     * [What is the difference between a “splice site” mutation and a “splice region” mutation?](#what-is-the-difference-between-a-splice-site-mutation-and-a-splice-region-mutation)
     * [Does the portal display mutation of origin annotations?](#does-the-portal-display-mutation-of-origin-annotations)
-    * [How is the copy number data displayed?(#how-is-the-copy-number-data-displayed)
+    * [How is the copy number data displayed?](#how-is-the-copy-number-data-displayed)
   * [Clinical Data](#clinical-data)
      * [What kind of clinical data is stored in the portal?](#what-kind-of-clinical-data-is-stored-in-the-portal)
        * [Tumor Type](#tumor-type)
@@ -63,7 +63,7 @@ Individual institutions can create their own customizable ‘copy’ or instance
 
 ### How do I get started?
 
-Check out these [tutorial slides](https://www.cbioportal.org/tutorials) to get started or go through the Gao et al [tutorial paper](http://www.ncbi.nlm.nih.gov/pubmed/23550210)).
+Check out these [tutorial slides](https://www.cbioportal.org/tutorials) to get started or go through the Gao et al [tutorial paper](http://www.ncbi.nlm.nih.gov/pubmed/23550210).
 
 You can also refer to the [Analysis Questions](#analysis-questions) section in this FAQs manual.
 
@@ -83,7 +83,7 @@ All users must agree to the terms of use before they have access to the data:
 
 The portal supports and stores non-synonymous mutation data, DNA copy-number data, fusion data, test metadata, and de-identified clinical data.
 
-More technical information on these data types are provided in the [DNA (Mutations, Copy Number &amp; Fusions)](#dna-mutations-copy-number--fusions) and [Clinical Data](#clinical-data) section in this FAQs manual.
+More technical information on these data types are provided in the [DNA (Mutations, Copy Number &amp; Fusions)](#dna-mutations-copy-number--fusions) and [Clinical Data](#clinical-data) sections in this FAQs manual.
 
 cBioPortal does have the ability to support additional data types including mRNA and microRNA expression data, protein-level and phosphoprotein level data (RPPA or mass spectrometry based), and DNA methylation data.
 
@@ -137,7 +137,7 @@ cBioPortal supports the annotation of variants from several different databases.
 
 * For OncoKB, exact levels of clinical actionability are displayed in cBioPortal, as defined by [the OncoKB paper](http://ascopubs.org/doi/full/10.1200/PO.17.00011).
 
-* In the OncoPrint view, mutations labeled as either putative driver or unknown significance is derived from OncoKB or Cancer Hotspots. 
+* In the OncoPrint view, mutations labeled as either putative driver or unknown significance are derived from OncoKB or Cancer Hotspots. 
 
 * Additionally, for those variants that are reported, we will be including the manually-assigned pathogenicity annotations from the report in an upcoming release. These will be viewable in both OncoPrint and the Mutations table. 
 
@@ -281,7 +281,7 @@ Click over to the “Download” tab. In the table at the top, find the row that
 
 After you select the entire cohort from the Query tab on the homepage, click on the ‘View summary’ button that will take you to the study summary page.
 
-On the study summary page, you can select specific cancer types and/or genes by selecting the checkbox.
+On the study summary page, you can select specific cancer types and/or genes by selecting the appropriate checkboxes in the Cancer Type/Cancer Type Detailed or Mutated Genes summary boxes, respectively.
 
 - Selecting specific cancer types will automatically filter the data and the various charts will updated.
 
@@ -291,7 +291,7 @@ You can also subset data using the bar graphs (e.g. Age) by placing cursor insid
 
 **Important: the Query genes search bar in this view is currently broken/known issue in this version of cBioPortal and will be fixed in our next upgrade.**
 
-From this view you can also click on the Select cases by IDs button. Within the box that pops-up, click on ‘Use selected samples/patients’; note the default setting is by sample ID but you can change this to patient ID by selecting the other radio button at bottom of box.
+From this view you can also click on the **Select cases by IDs button**. Within the box that pops-up, click on ‘Use selected samples/patients’; note the default setting is by sample ID but you can change this to patient ID by selecting the other radio button at bottom of box.
 
 Once you click on ‘Use selected samples/patients’, the IDs of the cohort you defined using the study summary page will be displayed. Copy these IDs; these are your list of desired samples. Refer to [Querying with your defined samples](#querying-with-your-defined-samples) for next steps.
 
