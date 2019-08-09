@@ -29,6 +29,7 @@
     * [How are protein domains in the mutational lollipop diagrams specified?](#how-are-protein-domains-in-the-mutational-lollipop-diagrams-specified)
     * [What is the difference between a “splice site” mutation and a “splice region” mutation?](#what-is-the-difference-between-a-splice-site-mutation-and-a-splice-region-mutation)
     * [Does the portal display mutation of origin annotations?](#does-the-portal-display-mutation-of-origin-annotations)
+    * [How is the copy number data displayed?(#how-is-the-copy-number-data-displayed)
   * [Clinical Data](#clinical-data)
      * [What kind of clinical data is stored in the portal?](#what-kind-of-clinical-data-is-stored-in-the-portal)
        * [Tumor Type](#tumor-type)
@@ -82,7 +83,7 @@ All users must agree to the terms of use before they have access to the data:
 
 The portal supports and stores non-synonymous mutation data, DNA copy-number data, fusion data, test metadata, and de-identified clinical data.
 
-More technical information on these data types are provided in the [DNA (Mutations, Copy Number &amp; Fusions)](#dna-mutations-copy-number--fusions)and [Clinical Data](#clinical-data) sections in this FAQs manual.
+More technical information on these data types are provided in the [DNA (Mutations, Copy Number &amp; Fusions)](#dna-mutations-copy-number--fusions) and [Clinical Data](#clinical-data) section in this FAQs manual.
 
 cBioPortal does have the ability to support additional data types including mRNA and microRNA expression data, protein-level and phosphoprotein level data (RPPA or mass spectrometry based), and DNA methylation data.
 
@@ -136,11 +137,9 @@ cBioPortal supports the annotation of variants from several different databases.
 
 * For OncoKB, exact levels of clinical actionability are displayed in cBioPortal, as defined by [the OncoKB paper](http://ascopubs.org/doi/full/10.1200/PO.17.00011).
 
-* Additionally, for those variants that are reported, we have included the manually-assigned pathogenicity annotations from the report.
+* In the OncoPrint view, mutations labeled as either putative driver or unknown significance is derived from OncoKB or Cancer Hotspots. 
 
-* In the OncoPrint view, mutations labeled as either putative driver or unknown significance is derived from OncoKB or Cancer Hotspots.
-
-* A future version of UCSF cBioPortal will include the manually-derived pathogenicity annotations in both the OncoPrint view and the Mutations view.
+* Additionally, for those variants that are reported, we will be including the manually-assigned pathogenicity annotations from the report in an upcoming release. These will be viewable in both OncoPrint and the Mutations table. 
 
 <img src="https://raw.githubusercontent.com/UCSF-CBC/cbioportal_docs/master/docs/images/cbio_drivers.png" width="35%">
 
@@ -154,9 +153,7 @@ The biological network data were retrieved from [Pathway Commons](http://www.pat
 
 ### Are there any normal tissue samples available through cBioPortal?
 
-No, we currently do not store any normal tissue data in our system. Our instance does include germline annotations of variants, though. Please refer to the [Does the portal display mutation of origin annotations?](#does-the-portal-display-mutation-of-origin-annotations)
-
-section in this FAQs manual for more information.
+No, we currently do not store any normal tissue data in our system. Our instance does include germline annotations of variants, though. Please refer to the [Does the portal display mutation of origin annotations?](#does-the-portal-display-mutation-of-origin-annotations) section in this FAQs manual for more information.
 
 ### Can I download all data at once?
 
@@ -172,7 +169,7 @@ Please also refer to the following:
 
 ### How current is the data in the portal?
 
-Refer to the [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summarize new data additions. In general, we will update the portal will additional UCSF500 cases on a monthly basis.
+Please refer to the [News](https://cbioportal.ucsf.edu/cbioportal/news) page; updates on new data added in each release will be added there. In general, we will update the portal with additional UCSF500 cases on a monthly basis.
 
 ### The data or portal user interface today is different than the last time I looked. What happened?
 
@@ -180,11 +177,11 @@ Refer to the [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summa
 
 The cBioPortal developers occasionally release new version of the software. Descriptions of the items in each release can be found on the GitHub [page](https://github.com/cBioPortal/cbioportal/releases) for cBioPortal.
 
-The UCSF cBioPortal will upgrade to new versions on an approximately monthly basis. The [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summarize any user interface changes that occur between versions of the portal.
+New versions of the UCSF cBioPortal will be released on an approximately monthly basis, and we will bundle into this any new versions of the cBioPortal application that become available. The [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summarize any user interface changes that occur between versions of the portal.
 
 **The data looks different**
 
-We will be continuously uploading more UCSF500 cases to the portal so the dataset will expand over time. Additionally, we will be adding more annotations, with an emphasis on clinical data, into the portal as well.
+We will be uploading more UCSF500 cases to the portal on an approximately monthly basis, so the dataset will expand over time. Additionally, we will be adding more annotations, with an emphasis on clinical data, into the portal as well.
 
 The [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summarize any new data uploads that occur between versions of the portal.
 
@@ -240,6 +237,12 @@ Somatic/germline annotations are derived directly from the VCF. Therefore, any m
 
 Cases where the mutation of origin annotations might be incorrect are variants representing clonal hematopoiesis of indeterminate potential (‘CHIP’), cases where contamination of normal sample with tumor-derived samples has occurred, and cases where the germline variant is selectively lost in the tumor sample because of copy number changes/loss of heterozygosity.
 
+### How is the copy number data displayed?
+cBioPortal supports several ways to display copy number data. Currently, the UCSF cBioPortal is only showing segmented copy number data. This practically means copy number variants are NOT shown in the OncoPrint results or in Mutation table. 
+
+Segmented copy number data can be seen for entire cohorts or sub-cohorts by selecting the 'CN Segments' tab or on the summary page for individual patients. 
+We will include discrete copy number data (e.g. amplification) that will be pulled into OncoPrint and the mutation table in an upcoming release.  
+
 ## Clinical Data
 
 ### What kind of clinical data is stored in the portal?
@@ -252,7 +255,7 @@ If there are specific clinical data you would like to see in the portal, please 
 
 #### Tumor Type
 
-We use the [OncoTree](http://oncotree.mskcc.org/#/home) ontology for tumor type, which provides a standardized way of classifying and related tumor types. ‘Cancer Type Detailed’ represents the most granular diagnosis for the case given available information, while ‘Cancer Type’ is a higher-level node in the ontology.
+We use the [OncoTree](http://oncotree.mskcc.org/#/home) ontology for tumor type, which provides a standardized way of classifying and relating tumor types. ‘Cancer Type Detailed’ represents the most granular diagnosis for the case given available information, while ‘Cancer Type’ is a higher-level node in the ontology.
 
 #### Primary Site
 
@@ -276,7 +279,9 @@ Click over to the “Download” tab. In the table at the top, find the row that
 
 #### Defining samples: Summary study view
 
-After you select the entire cohort from the Query tab on the homepage, click on the ‘View summary’ button that will take you to the study summary page. From here you can select specific cancer types and/or genes by selecting the checkbox.
+After you select the entire cohort from the Query tab on the homepage, click on the ‘View summary’ button that will take you to the study summary page.
+
+On the study summary page, you can select specific cancer types and/or genes by selecting the checkbox.
 
 - Selecting specific cancer types will automatically filter the data and the various charts will updated.
 
