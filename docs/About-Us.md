@@ -10,26 +10,26 @@ The Posey Family Fund
 
 ## Developers and contributors of the UCSF cBioPortal:
 ### Molecular Oncology Initiative
-Carlos Espinosa Mendez, BA
-Alejandro Sweet-Cordero, MD
-Michelle Turski, PhD
-Adam Olshen, PhD
-Eric Collisson, MD
-Cassie Kline, MD
-Mark Moasser, MD
-Elliot Stieglitz, MD
+* Carlos Espinosa Mendez, BA
+* Alejandro Sweet-Cordero, MD
+* Michelle Turski, PhD
+* Adam Olshen, PhD
+* Eric Collisson, MD
+* Cassie Kline, MD
+* Mark Moasser, MD
+* Elliot Stieglitz, MD
 
 ### Clinical Cancer Genomics Laboratory
-Boris Bastian, MD
-Courtney Onodera, PhD
-James P. Grenert, MD, PhD
-Jessica Van Ziffle, PhD
-Iwei Yeh, MD, PhD
-David Solomon, MD, PhD
-Nancy Joseph, MD, PhD
-Patrick Devine, MD, PhD
-Sarah Umetsu, MD, PhD
-Bradley Stohr, MD, PhD
-Gregor Krings, MD, PhD
-Roberto Ruiz-Cordero, MD, PhD
-Janya Phuchareon, PhD
+* Boris Bastian, MD
+* Courtney Onodera, PhD
+* James P. Grenert, MD, PhD
+* Jessica Van Ziffle, PhD
+* Iwei Yeh, MD, PhD
+* David Solomon, MD, PhD
+* Nancy Joseph, MD, PhD
+* Patrick Devine, MD, PhD
+* Sarah Umetsu, MD, PhD
+* Bradley Stohr, MD, PhD
+* Gregor Krings, MD, PhD
+* Roberto Ruiz-Cordero, MD, PhD
+* Janya Phuchareon, PhD
