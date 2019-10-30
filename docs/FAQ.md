@@ -77,7 +77,7 @@ All users must agree to the terms of use before they have access to the data:
 
 2. I will not redistribute or share the UCSF dataset or any elements of this dataset with investigators or other individuals who are not employed by UCSF.
 
-3. When publishing or presenting work using or referencing data from the UCSF dataset, I will first contact Dr. Boris Bastian (boris.bastian@ucsf.edu) and Dr. Alejandro Sweet-Cordero (alejandro.sweet-cordero@ucsf.edu) to ascertain the appropriate attribution to use.
+3. When publishing or presenting work using or referencing data from the UCSF dataset, I agree to include an acknowledgement of both the Clinical Cancer Genomics Laboratory and Molecular Oncology Initiative at UCSF. 
 
 ### What data types are in the portal?
 
@@ -119,7 +119,7 @@ You can bookmark your query results and share the URL with collaborators. We sto
 
 Both the [OncoPrint](https://cbioportal.ucsf.edu/cbioportal/oncoprinter.jsp) and [Lollipop Plot](https://cbioportal.ucsf.edu/cbioportal/mutation_mapper) visualization tools can be used with your own dataset.
 
-If you have a dataset you want to include as a distinct study in the UCSF cBioPortal that can be analyzed using the entire suite of analysis and visualization tools, we encourage you to contact [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu) with the particulars of your dataset.
+If you have a dataset you want to include as a distinct study in the UCSF cBioPortal that can be analyzed using the entire suite of analysis and visualization tools, we encourage you to contact [us](mailto:ucsf.cbioportal@ucsf.edu) with the particulars of your dataset.
 
 # Data Questions
 
@@ -159,7 +159,7 @@ No, we currently do not store any normal tissue data in our system. Our instance
 
 You can download the entire cohort, sub-cohorts, or individual patient data on the portal. Additionally, all of the figures in the portal are downloadable.
 
-We do ask if you are downloading data from the portal that you email [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu) and provide details of the data you are downloading so we can better track usage of the portal.
+We do ask if you are downloading data from the portal that you email [us](mailto:ucsf.cbioportal@ucsf.edu) and provide details of the data you are downloading so we can better track usage of the portal.
 
 Please also refer to the following:
 
@@ -191,7 +191,7 @@ However, if you suspect that there is an error in the current version, please le
 
 Data from AACR Project GENIE are provided in a [dedicated instance of cBioPortal](https://www.cbioportal.org/genie/). You can also download GENIE data from the [Synapse Platform](http://synapse.org/genie). Note that you will need to register before accessing the data.
 
-If you have any questions or run into problems accessing the GENIE cBioPortal, please email [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu).
+If you have any questions or run into problems accessing the GENIE cBioPortal, please email [us](mailto:ucsf.cbioportal@ucsf.edu).
 
 #### How is the UCSF cBioPortal instance different from the GENIE cBioPortal?
 
@@ -345,6 +345,6 @@ The calculations on the Mutual Exclusivity tab are performed using all samples i
 
 # What if I have other questions or comments?
 
-Please contact [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu).
+Please contact [us](mailto:ucsf.cbioportal@ucsf.edu).
 
 You can also communicate with us via [survey](https://redcap.ucsf.edu/surveys/?s=HD8JARCM33) be it reporting a problem or with a suggestion!
