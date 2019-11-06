@@ -1,4 +1,4 @@
-﻿
+
 
 # cBioPortal FAQs
 
@@ -77,7 +77,7 @@ All users must agree to the terms of use before they have access to the data:
 
 2. I will not redistribute or share the UCSF dataset or any elements of this dataset with investigators or other individuals who are not employed by UCSF.
 
-3. When publishing or presenting work using or referencing data from the UCSF dataset, I will first contact Dr. Boris Bastian (boris.bastian@ucsf.edu) and Dr. Alejandro Sweet-Cordero (alejandro.sweet-cordero@ucsf.edu) to ascertain the appropriate attribution to use.
+3. When publishing or presenting work using or referencing data from the UCSF dataset, I agree to include an acknowledgement of both the Clinical Cancer Genomics Laboratory and Molecular Oncology Initiative at UCSF.
 
 ### What data types are in the portal?
 
@@ -103,7 +103,7 @@ Please cite the following portal papers:
 
 Yes, you are free to use any of the figures from the portal in your publications or presentations (many are available in SVG or PDF format for easier scaling and editing).
 
-However, as per the terms of use agreement, please email [alejandro.sweet-cordero@ucsf.edu](mailto:alejandro.sweet-cordero@ucsf.edu) and [boris.bastian@ucsf.edu](mailto:boris.bastian@ucsf.edu) if you plan to use any of the data in the portal for publication or presentation purposes.
+Please remember to acknowledge both the Clinical Cancer Genomics Laboratory and Molecular Oncology Initiative at UCSF.
 
 Additionally, please provide credit to the original developers of the cBioPortal application by citing:
 
@@ -119,7 +119,7 @@ You can bookmark your query results and share the URL with collaborators. We sto
 
 Both the [OncoPrint](https://cbioportal.ucsf.edu/cbioportal/oncoprinter.jsp) and [Lollipop Plot](https://cbioportal.ucsf.edu/cbioportal/mutation_mapper) visualization tools can be used with your own dataset.
 
-If you have a dataset you want to include as a distinct study in the UCSF cBioPortal that can be analyzed using the entire suite of analysis and visualization tools, we encourage you to contact [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu) with the particulars of your dataset.
+If you have a dataset you want to include as a distinct study in the UCSF cBioPortal that can be analyzed using the entire suite of analysis and visualization tools, we encourage you to contact [us](mailto:ucsf.cbioportal@ucsf.edu) with the particulars of your dataset.
 
 # Data Questions
 
@@ -159,7 +159,7 @@ No, we currently do not store any normal tissue data in our system. Our instance
 
 You can download the entire cohort, sub-cohorts, or individual patient data on the portal. Additionally, all of the figures in the portal are downloadable.
 
-We do ask if you are downloading data from the portal that you email [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu) and provide details of the data you are downloading so we can better track usage of the portal.
+Please remember when publishing or presenting work using or referencing data from the UCSF dataset, to acknowledge both the Clinical Cancer Genomics Laboratory and Molecular Oncology Initiative at UCSF.
 
 Please also refer to the following:
 
@@ -169,7 +169,7 @@ Please also refer to the following:
 
 ### How current is the data in the portal?
 
-Please refer to the [News](https://cbioportal.ucsf.edu/cbioportal/news) page; updates on new data added in each release will be added there. In general, we will update the portal with additional UCSF500 cases on a monthly basis.
+Please refer to the [News](https://cbioportal.ucsf.edu/cbioportal/news) page; updates on new data added in each release will be added there. In general, we will update the portal with additional UCSF500 cases every two months initially. Eventually we want to move to bi-weekly data updates to portal.
 
 ### The data or portal user interface today is different than the last time I looked. What happened?
 
@@ -181,17 +181,17 @@ New versions of the UCSF cBioPortal will be released on an approximately monthly
 
 **The data looks different**
 
-We will be uploading more UCSF500 cases to the portal on an approximately monthly basis, so the dataset will expand over time. Additionally, we will be adding more annotations, with an emphasis on clinical data, into the portal as well.
+We will be uploading more UCSF500 cases to the portal approximately every two months initially, so the dataset will expand over time. Additionally, we will be adding more annotations, with an emphasis on clinical data, into the portal as well.
 
 The [News](https://cbioportal.ucsf.edu/cbioportal/news) page will summarize any new data uploads that occur between versions of the portal.
 
-However, if you suspect that there is an error in the current version, please let us know by filling out this [survey](https://redcap.ucsf.edu/surveys/?s=HD8JARCM33).
+However, if you suspect that there is an error in the current version, please let us know by filling out this [survey](https://redcap.ucsf.edu/surveys/?s=HD8JARCM33) or contact [us](mailto:ucsf.cbioportal@ucsf.edu).
 
 ### How do I access data from AACR Project GENIE?
 
 Data from AACR Project GENIE are provided in a [dedicated instance of cBioPortal](https://www.cbioportal.org/genie/). You can also download GENIE data from the [Synapse Platform](http://synapse.org/genie). Note that you will need to register before accessing the data.
 
-If you have any questions or run into problems accessing the GENIE cBioPortal, please email [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu).
+If you have any questions or run into problems accessing the GENIE cBioPortal, please email [us](mailto:ucsf.cbioportal@ucsf.edu).
 
 #### How is the UCSF cBioPortal instance different from the GENIE cBioPortal?
 
@@ -259,7 +259,7 @@ We use the [OncoTree](http://oncotree.mskcc.org/#/home) ontology for tumor type,
 
 #### Primary Site
 
-This is derived directly from the UCSF500 report and actually represents the source location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
+This is derived directly from the UCSF500 report and actually represents the anatomic location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
 
 This data is currently not standardized. As such the same term might be described differently (e.g. ‘Brain, right frontotemporal lobes’ and ‘Brain, right frontotemporal’ or ‘Kidney, left’, ‘Left Kidney’, and ‘Kidney, left lower pole’).
 
@@ -288,8 +288,6 @@ On the study summary page, you can select specific cancer types and/or genes by 
 - Checking specific genes will not automatically filter the data but instead you’ll need to click the ‘Select Samples’ button to the bottom right of the Gene box.
 
 You can also subset data using the bar graphs (e.g. Age) by placing cursor inside graph near the left-most bar you want in your dataset and ‘highlighting’ across to the right-most bar you want in your dataset.
-
-**Important: the Query genes search bar in this view is currently broken/known issue in this version of cBioPortal and will be fixed in our next upgrade.**
 
 From this view you can also click on the **Select cases by IDs button**. Within the box that pops-up, click on ‘Use selected samples/patients’; note the default setting is by sample ID but you can change this to patient ID by selecting the other radio button at bottom of box.
 
@@ -345,6 +343,6 @@ The calculations on the Mutual Exclusivity tab are performed using all samples i
 
 # What if I have other questions or comments?
 
-Please contact [michelle.turski@ucsf.edu](mailto:michelle.turski@ucsf.edu).
+Please contact [us](mailto:ucsf.cbioportal@ucsf.edu)!
 
 You can also communicate with us via [survey](https://redcap.ucsf.edu/surveys/?s=HD8JARCM33) be it reporting a problem or with a suggestion!
