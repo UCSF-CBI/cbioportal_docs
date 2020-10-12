@@ -2,7 +2,7 @@
 
 ## README
 
-* Data in portal represents cases signed-out as of June 8th, 2020 and includes mutation, copy number and fusion data. For more information, please refer to the [FAQs](https://cbioportal.ucsf.edu/cbioportal/faq) page ("What data types are in the portal?"). 
+* Data in portal represents cases signed-out through the end of September 2020 and includes mutation, copy number and fusion data. For more information, please refer to the [FAQs](https://cbioportal.ucsf.edu/cbioportal/faq) page ("What data types are in the portal?"). 
     * We will be doing new data releases approximately every 2-3 months
 * Report-derived pathogenicity annotations are not yet displayed in portal 
 * There are several known bugs we have reported to the cBioPortal development team:
@@ -11,6 +11,13 @@
 * Primary site
    * This is derived directly from the UCSF500 report and actually represents the source location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
    
+## June 23rd, 2020
+Version 2.2 of UCSF cBioPortal released to UCSF community!
+  * Version of **data** is 2.2
+    * UCSF500 cases signed-out prior to 10/1/2020
+    * 4,868 patients and 5,381 samples
+  * Version of **UI** is 3.2.2 (no change from previous release)
+  
 ## June 23rd, 2020
 Version 2.1 of UCSF cBioPortal released to UCSF community!
   * Version of **data** is 2.1
