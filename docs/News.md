@@ -1,8 +1,33 @@
 # News
 
+
+## ANNOUNCEMENT!!
+
+We are very excited to announce that we will be launching a new version of our UCSF cBioPortal that will include de-identified clinical data elements (e.g. vital status) from de-identified clinical data warehouse (CDW) July 2021. This will allow us to enrich the genomics data in the portal with clinical data in a scalable manner. Patient de-identifiers within the portal will utilize those in de-identified CDW in this new version, which will allow you as a researcher to then obtain additional clinical data you want for your cohort directly from de-identified CDW as well.  
+
+In our initial launch, we will be including race, ethnicity, and whether patient is alive or deceased into cBioPortal. Additional clinical data elements we plan to add this calendar year are (de-identified) dates of diagnosis, tumor collection, sequencing, last visit, and death to name a few.  
+
+This new version of the UCSF cBioPortal will also have significant improvements in variant filtering (e.g. removing variants deemed to be benign, common polymorphisms or germline VUSes) and address long-standing issues we have had such as missing structural variants and germline variants. It will also bring in molecular pathologist assigned classification of UCSF500 variants.  We will be able to load more data into the portal with more frequency than we have before.
+
+In other big news, this new version will also include Foundation Medicine data for UCSF patients where a UCSF clinician report.
+ 
+THE NEW VERSION OF CBIOPORTAL WILL REQUIRE ADDITIONAL REGULATORY MEASURES TO BE MET; PLEASE READ CAREFULLY BELOW:
+
+All users must apply for a de-identified CDW account and complete de-identified CDW onboarding if they do not have one already:
+<ul>
+   <li>Follow ‘First Time Users’ steps found <a href="https://ars.ucsf.edu/de-identified-clinical-data-warehouse">here.</a></li>; you can indicate 'Michelle Turski' as the approver. 
+   <li>You will need to have a current attestation form (Statement of Responsibility) on file; users will get a Docusign invitation if their form is not current or signed</li>
+   <li>Three training modules need to be completed, two of which most users will likely have already completed (‘CyberSecurity Fundamentals’ & ‘HIPAA101’); the third training module, ‘Your Responsibilities when Working with Clinical Data’ should take less than 15 minutes to complete </li>
+   <li>While our new pipeline connecting to de-identified CDW undergoes certification for de-identification, we will need to add all users to an existing IRB for the UCSF cBioPortal research application. For this, there is nothing you as a user need to do, this is more of a FYI. Once our pipeline is certified, which we hope will be the case in the next 3-6 months, we will no longer need to execute this step and will remove cBioPortal users from the IRB.</li>
+</ul>
+
+We will continue to remind our users about de-identified CDW training over the next few weeks prior to launch; at launch, if you have NOT completed the training/account request for de-identified CDW, you will no longer have access to data in UCSF cBioPortal.
+
+Any questions or concerns please send to ucsf.cbioportal@ucsf.edu. The UCSF500 data currently in cBioPortal will not disappear but be stored as a separate study you can still access within the portal; we will not however be maintaining this dataset in anyway (no longer adding cases, bug fixes etc).
+
 ## README
 
-* Data in portal represents cases signed-out up to January 5th, 2021 and includes mutation, copy number and fusion data. For more information, please refer to the [FAQs](https://cbioportal.ucsf.edu/cbioportal/faq) page ("What data types are in the portal?"). 
+* Data in portal represents cases signed-out up to June 1st, 2021 and includes mutation, copy number and fusion data. For more information, please refer to the [FAQs](https://cbioportal.ucsf.edu/cbioportal/faq) page ("What data types are in the portal?"). 
     * We will be doing new data releases approximately every 2-3 months
 * Report-derived pathogenicity annotations are not yet displayed in portal 
 * There are several known bugs we have reported to the cBioPortal development team:
@@ -10,7 +35,14 @@
 * Some fusions as well as SNPs/small indels are not showing up in the portal; we are in the process of investigating the source cause of this.
 * Primary site
    * This is derived directly from the UCSF500 report and actually represents the source location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
-   
+
+## June 17th, 2021
+Version 3.0 of UCSF cBioPortal released to UCSF community!
+  * UCSF500 cases signed-out prior to 1/05/2021
+    * 6,937 patients and 7,844 samples
+  * Version of UI has been upgraded 3.6.18.
+
+
 ## February 5th, 2021
 Version 3.0 of UCSF cBioPortal released to UCSF community!
   * UCSF500 cases signed-out prior to 1/05/2021
