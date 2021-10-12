@@ -1,5 +1,24 @@
 # News
 
+## October 12th, 2021: RELEASE OF NEW UCSF cBIOPORTAL
+New cBioPortal Pipeline released to production!
+  * <strong>UCSF500 Old Pipeline Data Freeze Study:</strong> data files generated using old pipeline and includes cases signed-out prior to 10/1/2021
+    * _this study will no longer be updated after this release_
+  *  <strong>UCSF500 Study:</strong> data files generated using NEW pipeline and includes cases signed-out prior to 10/1/2021
+  *  <strong>FM Study:</strong> data files generated using old pipeline and includes cases ordered by UCSF clinician prior to 10/1/2021
+  * Version of **UI** is 3.6.18 (no change from previous release)
+
+**Key highlights about the new version of cBioPortal:**
+* UCSF500 data through September 2021
+* *New* Foundation Medicine data for tests ordered by UCSF clinician through September 2021
+* *New* Linkages to de-identified CDW (patient ID)
+* *New* Vital status, race and ethnicity from de-identified CDW displayed in portal
+* *New* Molecular pathologist assigned classification of reported variants for UCSF500
+* Addressed many of the previously known problems such as missing fusions
+
+**You can learn more about the old study and new studies as well as how to access new studies/data generated using our new pipeline on our [News Page](https://cbioportal.ucsf.edu/cbioportal/faq#what-are-the-different-ucsf-cbioportal-studies).** 
+* Information on how to access new studies is also provided immediately below under the 'ANNOUNCEMENT' 
+
 
 ## ANNOUNCEMENT!!
 
@@ -15,7 +34,7 @@ THE NEW VERSION OF CBIOPORTAL WILL REQUIRE ADDITIONAL REGULATORY MEASURES TO BE 
 
 All users must apply for a de-identified CDW account and complete de-identified CDW onboarding if they do not have one already:
 <ul>
-   <li>Follow ‘First Time Users’ steps found <a href="https://ars.ucsf.edu/de-identified-clinical-data-warehouse">here.</a></li>; you can indicate 'Michelle Turski' as the approver. 
+   <li>Follow ‘First Time Users’ steps found <a href="https://ars.ucsf.edu/de-identified-clinical-data-warehouse">here.</a>You can indicate 'Michelle Turski' as the approver.</li> 
    <li>You will need to have a current attestation form (Statement of Responsibility) on file; users will get a Docusign invitation if their form is not current or signed</li>
    <li>Three training modules need to be completed, two of which most users will likely have already completed (‘CyberSecurity Fundamentals’ & ‘HIPAA101’); the third training module, ‘Your Responsibilities when Working with Clinical Data’ should take less than 15 minutes to complete </li>
    <li>While our new pipeline connecting to de-identified CDW undergoes certification for de-identification, we will need to add all users to an existing IRB for the UCSF cBioPortal research application. For this, there is nothing you as a user need to do, this is more of a FYI. Once our pipeline is certified, which we hope will be the case in the next 3-6 months, we will no longer need to execute this step and will remove cBioPortal users from the IRB.</li>
@@ -25,26 +44,14 @@ We will continue to remind our users about de-identified CDW training over the n
 
 Any questions or concerns please send to ucsf.cbioportal@ucsf.edu. The UCSF500 data currently in cBioPortal will not disappear but be stored as a separate study you can still access within the portal; we will not however be maintaining this dataset in anyway (no longer adding cases, bug fixes etc).
 
-## README
-
-* Data in portal represents cases signed-out up to June 1st, 2021 and includes mutation, copy number and fusion data. For more information, please refer to the [FAQs](https://cbioportal.ucsf.edu/cbioportal/faq) page ("What data types are in the portal?"). 
-    * We will be doing new data releases approximately every 2-3 months
-* Report-derived pathogenicity annotations are not yet displayed in portal 
-* There are several known bugs we have reported to the cBioPortal development team:
-   * H3F3A variants are showing up as H3F3B variants in portal!
-* Some fusions as well as SNPs/small indels are not showing up in the portal; we are in the process of investigating the source cause of this.
-* Primary site
-   * This is derived directly from the UCSF500 report and actually represents the source location of the biopsy; therefore it might not represent the true primary site of the tumor per se. We are working on obtaining the true primary site for cases in the portal.
-
 ## June 17th, 2021
-Version 3.0 of UCSF cBioPortal released to UCSF community!
+New Data Release + UI Upgrade
   * UCSF500 cases signed-out prior to 1/05/2021
     * 6,937 patients and 7,844 samples
   * Version of UI has been upgraded 3.6.18.
 
-
 ## February 5th, 2021
-Version 3.0 of UCSF cBioPortal released to UCSF community!
+New Data Release + UI Upgrade
   * UCSF500 cases signed-out prior to 1/05/2021
     * 5,789 patients and 6,432 samples
   * Version of UI has been upgraded 3.6.3. New Features/Enhancements Include:
@@ -94,20 +101,18 @@ Version 3.0 of UCSF cBioPortal released to UCSF community!
 
   
 ## October 11th, 2020
-Version 2.2 of UCSF cBioPortal released to UCSF community!
-  * Version of **data** is 2.2
-    * UCSF500 cases signed-out prior to 10/1/2020
+New Data Release + UI Upgrade
+  * UCSF500 cases signed-out prior to 10/1/2020
     * 4,868 patients and 5,381 samples
   * Version of **UI** is 3.2.2 (no change from previous release)
   
 ## June 23rd, 2020
-Version 2.1 of UCSF cBioPortal released to UCSF community!
-  * Version of **data** is 2.1
-    * UCSF500 cases signed-out prior to 6/8/2020
+New Data Release + UI Upgrade
+  * UCSF500 cases signed-out prior to 6/8/2020
   * Version of **UI** is 3.2.2 (no change from previous release)
    
 ## March 17th, 2020
-Version 2.0 of UCSF cBioPortal released to UCSF community!
+New Data Release + UI Upgrade
 
   * Version of **data** is 2.0
     * UCSF500 cases signed-out prior to 2/24/2020
@@ -121,7 +126,6 @@ Version 2.0 of UCSF cBioPortal released to UCSF community!
      * Bookmarking or sharing your selected samples as virtual studies with the _share_ icon on the study summary page. [Example: a virtual study of breast tumors](https://www.cbioportal.org/study?id=5a12fd57498eb8b3d5605cd4)
 
 ## August 12, 2019
-Version 1.0 of UCSF cBioPortal released to UCSF community!
-
+Initial launch of UCSF cBioPortal released to UCSF community!
   *  Version of **data** is 1.0
   * Version of **UI** is 1.18.1
