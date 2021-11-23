@@ -280,7 +280,8 @@ Genomic data is parsed directly from a xml-formatted version of the report and i
 
 Request a de-identified CDW account and complete training requirements:
 * Refer to [‘First Time Users’](https://ars.ucsf.edu/de-identified-clinical-data-warehouse) section and follow instructions for requesting a de-identified CDW account
- *  List Michelle Turski as account approver
+  * Select No for Section 1 (Identified Data: Extract UCSF and/or ZSFG Data)
+  * Select Yes for Section 2 (De-Identified Data: Access to De-ID CDW, De-ID OMOP, Information Commons and associated tools)
 * We will grant access to data from new pipeline every Friday for those who have completed training
 * We will email you when you have access to new dataset
 
