@@ -1,5 +1,15 @@
 # News
 
+## November 19th, 2021: Data Refresh/Update Only
+  * <strong>UCSF500 Old Pipeline Data Freeze Study:</strong> data files generated using old pipeline and includes cases signed-out prior to 10/1/2021
+    * _this study is no longer being updated_
+  * <strong>UCSF500 Study:</strong> 8,110 samples | 7,568 patients
+  * <strong>FM Study:</strong> 2,233 samples | 1,123 patients
+  * Version of **UI** is 3.6.18 (no change from previous release)
+
+**You can learn more about the old study and new studies as well as how to access new studies/data generated using our new pipeline on our [News Page](https://cbioportal.ucsf.edu/cbioportal/faq#what-are-the-different-ucsf-cbioportal-studies).** 
+* Information on how to access new studies is also provided immediately below under October 12th News Updates; see 'ANNOUNCEMENT' section
+
 ## October 12th, 2021: RELEASE OF NEW UCSF cBIOPORTAL
 New cBioPortal Pipeline released to production!
   * <strong>UCSF500 Old Pipeline Data Freeze Study:</strong> data files generated using old pipeline and includes cases signed-out prior to 10/1/2021
