@@ -245,11 +245,11 @@ The new pipeline used to generate the genomic data files has significant improve
 
 The more stringent **variant filtering** parameters has resulted in some reported variants being excluded from portal. Currently, our pipeline includes approxmately 88% of reported single nucleotide variants (SNVs) and small indels; 2/3 of the reported variants excluded from pipeline are variants of uncertain significance.  
 
-Similarly, our pipeline includes approxmately 90% of reported **structural variants**. By clicking on Event Info'column in the Structural Variants table, you can see the reported structural variant name. 
+Similarly, our pipeline includes approximately 90% of reported **structural variants**. By clicking on 'Event Info' column in the Structural Variants table, you can see the reported structural variant name. 
 
 We will continue to work to improve both our variant filtering and structural variant parameters.
 
-**Discrete copy number** is not yet available for UCSF500 data but is targeted to be available by end of 2021. Whole genome copy number data is currently available for most sequenced specimens. 
+Whole genome copy number data and discrete copy number data are currently available for most sequenced specimens. See [How is the copy number data displayed?](#how-is-the-copy-number-data-displayed) section for more information on copy number data.  
 
 **Molecular Pathologist Classifications** for variants can be found by selecting 'Center' from the Column options on the Mutations table. The classification for a given variant represents _the most recent assigned classification_ for the variant and is not necessarily the original classification for the variant in that report. 
 * The 'Not Yet Classified' classification means this variant has not yet been assigned a classification by our Molecular Pathologists but can often be considered a variant of uncertain significance. 
@@ -322,9 +322,30 @@ Somatic/germline annotations are derived directly from the VCF. Therefore, any m
 Cases where the mutation of origin annotations might be incorrect are variants representing clonal hematopoiesis of indeterminate potential (‘CHIP’), cases where contamination of normal sample with tumor-derived samples has occurred, and cases where the germline variant is selectively lost in the tumor sample because of copy number changes/loss of heterozygosity.
 
 ### How is the copy number data displayed?
-cBioPortal supports several ways to display copy number data. Currently, the UCSF cBioPortal is only showing segmented copy number data. This practically means copy number variants are NOT shown in the OncoPrint results or in Mutation table. 
+cBioPortal supports several ways to display copy number data. 
 
-Segmented copy number data can be seen for entire cohorts or sub-cohorts by selecting the 'CN Segments' tab or on the summary page for individual patients. We will include discrete copy number data (e.g. amplification) that will be pulled into OncoPrint and the mutation table in an upcoming release.
+<center>
+ <i>Due to a bug in cBioPortal software, Shallow Deletions and Gain alteration are currently not displayed in the Copy Number table for a sample.</i>
+ </center>
+
+### UCSF500
+Both segmented copy number data and discrete copy number data are available for most UCSF500 specimens 
+
+Segmented copy number data can be seen for entire cohorts or sub-cohorts by selecting the 'CN Segments' tab or on the summary page for individual patients. 
+
+Discrete copy number is inferred from whole genome copy number data using <a href="https://pubmed.ncbi.nlm.nih.gov/27100738/">CNVkit</a>:
+
+<ul>
+ <li>Deep Deletion indicates a deep loss, possibly a homozygous deletion</li>
+ <li>Shallow Deletion indicates a shallow loss, possibly a heterozygous deletion</li>
+ <li>Gain indicates a low-level gain (a few additional copies, often broad</li>
+ <li>Amplification indicate a high-level amplification (more copies, often focal)</li>
+ </ul>
+
+Note that these calls are putative. We consider the deep deletions and amplifications as biologically relevant for individual genes by default. Note that these calls are usually not manually reviewed, and due to differences in purity and ploidy between samples, there may be false positives and false negatives.
+
+### FM
+As the FM data in the portal is derived directly from xml files of the report, only discrete copy number results as reported by Foundation Medicine are included in portal. 
 
 ## Clinical Data
 
