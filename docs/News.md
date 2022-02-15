@@ -1,10 +1,23 @@
 # News
 
+## February 14th, 2022: Discrete CNA, duplicate tumor samples + data refresh
+ 
+ <strong><i>A reminder that the UCSF500 Old Pipeline Data Freeze Study is no longer being updated or maintained so the below updates do not apply for this study</i> </strong>
+
+Our pipeline now includes discrete copy number data for both UCSF500 and FM studies! You can learn more about this on our [FAQs page]( https://cbioportal.ucsf.edu/cbioportal/faq#how-is-the-copy-number-data-displayed).
+
+We've also now addressed duplicate tumor samples, wherein the sequencing results from the same tumor DNA sample are in more than one test order/report. In cases such as these, our pipeline will only select for inclusion in the portal the results corresponding to the report with the <i>most recent sign-out date</i>.
+
+This release also includes a data refresh: cases signed-out prior to 2/01/2022 are in the portal with summary stats provided below. 
+  * <strong>UCSF500 Study:</strong> 8,343 patients | 8,939 samples
+  * <strong>FM Study:</strong> 2,267 samples | 2,151 patients
+  * Version of **UI** is 3.6.18 (no change from previous release)
+
 ## November 19th, 2021: Data Refresh/Update Only
   * <strong>UCSF500 Old Pipeline Data Freeze Study:</strong> data files generated using old pipeline and includes cases signed-out prior to 10/1/2021
     * _this study is no longer being updated_
   * <strong>UCSF500 Study:</strong> 8,110 samples | 7,568 patients
-  * <strong>FM Study:</strong> 2,233 samples | 1,123 patients
+  * <strong>FM Study:</strong> 2,233 samples | 2,123 patients
   * Version of **UI** is 3.6.18 (no change from previous release)
 
 **You can learn more about the old study and new studies as well as how to access new studies/data generated using our new pipeline on our [News Page](https://cbioportal.ucsf.edu/cbioportal/faq#what-are-the-different-ucsf-cbioportal-studies).** 
