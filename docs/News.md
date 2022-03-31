@@ -1,5 +1,45 @@
 # News
 
+## February 14th, 2022: Data refresh + UI version upgrade
+
+**Data Refresh:** cases signed-out prior to 3/01/2022 are in the portal; reminder data refresh does not apply to 'UCSF500 Old Pipeline Data Freeze' Study
+  * UCSF500 Study: 8,611 patients | 9,236 samples
+  * FM Study: 2,170 patients | 2,287 samples
+
+**UI Upgrade** to version 3.7.28: see below for summary of features and enhancements added in this version!
+
+* **New Feature**: Add Uniprot topology as a new annotation track on the Mutations Tab of the Results View. [Example: EGFR in MSK-IMPACT (2017) cohort](https://www.cbioportal.org/results/mutations?cancer_study_list=msk_impact_2017&Z_SCORE_THRESHOLD=2.0&RPPA_SCORE_THRESHOLD=2.0&profileFilter=mutations%2Cfusion%2Ccna&case_set_id=msk_impact_2017_cnaseq&gene_list=EGFR&geneset_list=%20&tab_index=tab_visualize&Action=Submit)
+
+    <img src="https://user-images.githubusercontent.com/16869603/141861719-f91d787e-e8c3-4c27-8273-7642ec3fd5e1.png" width="700" />
+
+* **Enhancement**: Dowloading the Lollipop plot on the Mutations Tab of the _Results View_ will now also include the annotation tracks:
+    
+    <img src="https://user-images.githubusercontent.com/1334004/139694195-51ad5580-efa5-4b25-9a10-2754726a246b.png" width="700" />
+
+
+* **New Feature**: The Mutations Tab of the _Results View_ can now show exon numbers as an annotation track [Example: MET Exon 14 Mutations in MSK-IMPACT (2017) cohort](https://www.cbioportal.org/results/mutations?genetic_profile_ids_PROFILE_MUTATION_EXTENDED=msk_impact_2017_mutations&genetic_profile_ids_PROFILE_COPY_NUMBER_ALTERATION=msk_impact_2017_cna&cancer_study_list=msk_impact_2017&Z_SCORE_THRESHOLD=2.0&RPPA_SCORE_THRESHOLD=2.0&data_priority=0&profileFilter=mutations%2Cfusion%2Ccna&case_set_id=msk_impact_2017_cnaseq&gene_list=MET&geneset_list=%20&tab_index=tab_visualize&Action=Submit)
+    
+    <img src="https://user-images.githubusercontent.com/1334004/139694614-62f62640-2fab-4117-ae09-db2281690f76.png" width="700" />
+
+
+ * **New Feature**: Use the filtering capabilities in the Mutations Tab of the _Results View_ to create a custom cohort that one can open directly in the _Study View_ [Example: CTNNB1 in MSK-IMPACT (2017) cohort](https://bit.ly/3w6wu00)
+
+    <img src="https://user-images.githubusercontent.com/1334004/139696976-6e145c05-10d3-44c9-8499-146ad6e13f2f.png" width="700" />
+
+
+* **New Feature**: Add a custom filter to any column of the Mutations Tab in the _Results View_ [Example: CTNNB1 in MSK-IMPACT (2017) cohort](https://bit.ly/3w6wu00)
+
+    <img src="https://user-images.githubusercontent.com/1334004/139697555-34507fa8-2b57-4aa8-84ee-c477efffa864.png" width="700" />
+
+* **New Feature**: Show detailed descriptions for each annotation source in the header of the the Mutations Table in both the _Results View_ and the _Patient View_ [Example link](https://www.cbioportal.org/patient?studyId=lgg_ucsf_2014&caseId=P04)
+
+    <img src="https://user-images.githubusercontent.com/1334004/139699259-1be86599-c2e0-457c-b257-1b0d446facf4.png" width="350" />
+
+
+* **New Feature**: Add any clinical data as a column on the Mutations Tab in the _Results View_ [Example: EGFR in MSK-IMPACT (2017) cohort](https://bit.ly/3bxFlyp)
+
+    <img src="https://user-images.githubusercontent.com/1334004/139700811-4b6ce432-4abf-4dc4-8371-634a14d2b603.png" width="700" />
+
 ## February 14th, 2022: Discrete CNA, duplicate tumor samples + data refresh
  
  <strong><i>A reminder that the UCSF500 Old Pipeline Data Freeze Study is no longer being updated or maintained so the below updates do not apply for this study</i> </strong>
