@@ -1,6 +1,23 @@
 # News
 
-## February 14th, 2022: Data refresh + UI version upgrade
+## June 15th, 2022: Data refresh + Sample Type Annotations
+<i>Reminder that these updates do not apply to 'UCSF500 Old Pipeline Data Freeze' Study. Please see our [FAQs page](https://cbioportal.ucsf.edu/cbioportal/faq#how-do-i-get-access-to-the-new-pipeline-data) to learn how to gain access to our new studies where these updates apply</i>
+
+**Data Refresh:** cases signed-out prior to 6/01/2022 are in the portal
+  * UCSF500 Study: 9,569 patients | 10,300 samples
+  * FM Study: 2,219 patients | 2,342 samples
+
+**Sample Type Annotations:** The UCSF study now include sample type annotations:
+ * Primary Tumor
+ * Lymph Node Metastasis
+ * Distant Organ Metastasis
+ * Metastasis Site Not Specified
+ * Not Applicable or Hematological Malignancy
+ * NA - samples that do not yet have sample type annotated
+
+You can use sample type annotations to query for cases where a primary versus metastatic site was sequenced. In our next release, we will include sample type annotations for the FM study. 
+
+## March 31st, 2022: Data refresh + UI version upgrade
 
 **Data Refresh:** cases signed-out prior to 3/01/2022 are in the portal; reminder data refresh does not apply to 'UCSF500 Old Pipeline Data Freeze' Study
   * UCSF500 Study: 8,611 patients | 9,236 samples
