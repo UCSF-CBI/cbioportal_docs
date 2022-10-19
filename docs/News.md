@@ -1,5 +1,17 @@
 # News
 
+## October 18th, 2022: Data refresh + year of report sign-out and other
+<i>Reminder that these updates do not apply to 'UCSF500 Old Pipeline Data Freeze' Study. Please see our [FAQs page](https://cbioportal.ucsf.edu/cbioportal/faq#how-do-i-get-access-to-the-new-pipeline-data) to learn how to gain access to our new studies where these updates apply</i>
+
+**Data Refresh:** cases signed-out prior to 9/01/2022 are in the portal
+  * UCSF500 Study: 10,162 patients| 10,945 samples
+  * FM Study: 2,135 patients | 2,253 samples
+
+**Additional features in this release:** 
+ * Year of report sign-out <i>(note that sign-out date has been de-identified so for some reports, the year shown in the portal may be off by 1 year)</i>
+ * Race and ethnicity values have been standardized
+ * Patient ID (de-identified CDW patient durable key) can now be selected for inclusion in tables
+
 ## June 15th, 2022: Data refresh + Sample Type Annotations
 <i>Reminder that these updates do not apply to 'UCSF500 Old Pipeline Data Freeze' Study. Please see our [FAQs page](https://cbioportal.ucsf.edu/cbioportal/faq#how-do-i-get-access-to-the-new-pipeline-data) to learn how to gain access to our new studies where these updates apply</i>
 
