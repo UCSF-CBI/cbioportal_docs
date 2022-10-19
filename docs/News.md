@@ -12,6 +12,8 @@
  * Race and ethnicity values have been standardized
  * Patient ID (de-identified CDW patient durable key) can now be selected for inclusion in tables
 
+<img src="https://raw.githubusercontent.com/UCSF-CBI/cbioportal_docs/master/docs/images/soyear_patientid.png" width="700" />
+
 ## June 15th, 2022: Data refresh + Sample Type Annotations
 <i>Reminder that these updates do not apply to 'UCSF500 Old Pipeline Data Freeze' Study. Please see our [FAQs page](https://cbioportal.ucsf.edu/cbioportal/faq#how-do-i-get-access-to-the-new-pipeline-data) to learn how to gain access to our new studies where these updates apply</i>
 
