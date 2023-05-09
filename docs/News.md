@@ -1,4 +1,31 @@
 # News
+## May 5th, 2023: Data refresh, cBioPortal version upgrade, improved vital status, imaging timeline data
+
+**Data Refresh:** cases signed-out prior to 4/01/2023 are in the portal
+  * UCSF500 Study: 12,303 patients | 13,318 samples
+  * FM Study: 2,331 patients | 2,468 samples
+
+**Improved Vital Status:**
+  * Previously vital status was pulled directly from a single field in de-identified clinical data warehouse
+  * We now use several data sources to determine a patient's vital status, including Clarity, California Department of Public Health, UCSF Cancer Registry and manual annotations.
+
+**Imaging Timeline Data:**
+  * New imaging timeline data for select pediatric patients
+
+**Version Upgrade:** We are now running v5.3.6 of cBioPortal. See below for summary of features and enhancements added in this version!
+   * Gene Tables Update
+      * Updated tables of genes (main and alias), based on [Jan 1, 2022 HGNC release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/). See seedDB release note [here](https://github.com/cBioPortal/datahub/tree/master/seedDB#latest-seed-database) for details.
+     
+   * View mutations and copy number changes in the [Integrative Genomics Viewer (IGV)](https://igv.org/) on the _Patient View_. [Example: Endometrial cancer patient in TCGA](https://www.cbioportal.org/patient?studyId=ucec_tcga_pub&caseId=TCGA-BK-A0CC)
+<img src="https://user-images.githubusercontent.com/1334004/168593020-253a4bfe-3922-4bf9-8dcc-89e298ba87c7.png" width="700" />
+
+   * Add charts that plot categorical vs continuous data on the _Study View_. [Example: MSK-IMPACT (2017) cohort](https://www.cbioportal.org/study/summary?id=msk_impact_2017)
+    
+<img src="https://user-images.githubusercontent.com/1334004/168595352-6416db7e-b6b5-4ef8-95e7-eaf67c841d94.png" width="700" />
+
+   * Show cohort alteration frequencies in pathways from [NDEx](https://www.ndexbio.org/iquery/) on the _Results View_. [Example: Glioblastoma signaling pathways in MSK-IMPACT (2017) cohort](https://bit.ly/3sE4UqD)
+    
+<img src="https://user-images.githubusercontent.com/1334004/168684594-fafd1fd6-b2a9-45d7-ad3a-d5611f3f469c.png" width="700" />
 
 ## October 18th, 2022: Data refresh + year of report sign-out and other
 <i>Reminder that these updates do not apply to 'UCSF500 Old Pipeline Data Freeze' Study. Please see our [FAQs page](https://cbioportal.ucsf.edu/cbioportal/faq#how-do-i-get-access-to-the-new-pipeline-data) to learn how to gain access to our new studies where these updates apply</i>
