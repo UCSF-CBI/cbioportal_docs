@@ -42,8 +42,13 @@
     * [Does the portal display mutation of origin annotations?](#does-the-portal-display-mutation-of-origin-annotations)
     * [How is the copy number data displayed?](#how-is-the-copy-number-data-displayed)
   * [Clinical Data](#clinical-data)
-    * [What kind of clinical data is stored in the portal?](#what-kind-of-clinical-data-is-stored-in-the-portal)
-    * [What is the meaning of Age and Primary Site?](#what-is-the-meaning-of-age-and-primary-site)
+    * [Tumor Type](#tumor-type)
+    * [Primary Site](#primary-site)
+    * [Age](#age)
+    * [Race and Ethnicity](#race-and-ethnicity)
+    * [Vital Status](#vital-status)
+    * [Sample Type](#sample-type)
+    * [Imaging Data](#imaging-data)
 * [Analysis Questions](#analysis-questions)
   * [How can I query/explore a select subset of samples?](#how-can-i-queryexplore-a-select-subset-of-samples)
       * [Defining samples: Query tab on the homepage](#defining-samples-query-tab-on-the-homepage)
@@ -350,18 +355,23 @@ As the FM data in the portal is derived directly from xml files of the report, o
 
 ## Clinical Data
 
-### What kind of clinical data is stored in the portal?
+### Tumor Type
+* We use the [OncoTree](http://oncotree.mskcc.org/#/home) ontology for tumor type, which provides a standardized way of classifying and relating tumor types. ‘Cancer Type Detailed’ represents the most granular diagnosis for the case given available information, while ‘Cancer Type’ is a higher-level node in the ontology.
+### Primary Site
+* This is derived directly from the UCSF500 report and actually represents the _anatomic location of the tumor specimen sequenced_. Primary versus metastatic classifications are available in the Sample Type variable.
+   * Note: Tumor anatomic site is currently not standardized. As such the same term might be described differently (e.g. ‘Brain, right frontotemporal lobes’ and ‘Brain, right frontotemporal’ or ‘Kidney, left’, ‘Left Kidney’, and ‘Kidney, left lower pole’).
+### Age
+* The age of the patient at the time the tumor sequenced was collected.
+### Race and Ethnicity
+* Directly derived from de-identified clinical data warehouse (CDW)
+### Vital Status
+* Several data sources are used to determine a patient's vital status including Clarity, California Department of Public Health, UCSF Cancer Registry, and manual chart work.
+### Sample Type
+* Manual abstraction
+* In most cases, we currently do not distinguish between primary versus local tumor recurrence - both are classified as 'primary tumor' _unless_ the pathological diagnosis indicates patient has recurrent disease
+### Imaging Data
 
-* <strong>Tumor Type:</strong> We use the [OncoTree](http://oncotree.mskcc.org/#/home) ontology for tumor type, which provides a standardized way of classifying and relating tumor types. ‘Cancer Type Detailed’ represents the most granular diagnosis for the case given available information, while ‘Cancer Type’ is a higher-level node in the ontology.
-
-* <strong> De-Identified Clinical Data Warehouse:</strong> Race, ethnicity and vital status are derived from de-identified CDW. We will be including more structured data from de-identified CDW in the portal with future releases.
- * **Data from de-identified CDW is only available for the [UCSF500](#ucsf500) and [FM](#fm) studies**
-
-### What is the meaning of Age and Primary Site?
-
-* <strong>Primary Site: </strong> This is derived directly from the UCSF500 report and actually represents the _anatomic location of the biopsy_; therefore it might not represent the true primary site of the tumor per se. Future releases will include a distinction as to whether sequenced specimen is derived from primary or metastatic tumor. Tumor anatomic site is currently not standardized. As such the same term might be described differently (e.g. ‘Brain, right frontotemporal lobes’ and ‘Brain, right frontotemporal’ or ‘Kidney, left’, ‘Left Kidney’, and ‘Kidney, left lower pole’).
-
-* <strong>Age: </strong> Is the age of the patient at the time the tumor sequenced was collected.
+<strong>Data from de-identified CDW is only available for the [UCSF500](#ucsf500) and [FM](#fm) studies. We will be including more structured data from de-identified CDW in the portal in future releases/<strong>
 
 # Analysis Questions
 
