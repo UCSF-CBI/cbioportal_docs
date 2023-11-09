@@ -1,4 +1,27 @@
 # News
+## November 9th , 2023: Data refresh, Diagnosis event, Internal/External patient 
+
+**Data Refresh:** cases signed-out prior to 9/29/2023 are in the portal
+  * UCSF500 Study: 14,182 patients | 15,394 samples
+  * FM Study: 2,423 patients | 2,571 samples
+  * All clinical data derived from de-identified clinical data warehouse (race, ethnicity, vital status, internal versus external) is current up to 8/3/2023.
+  
+ **Diagnosis Timeline Event Data:**
+  * We now have diagnosis information (presented as interval in days from date of diagnosis to tumor sample sequenced with earliest collection date).
+  * Only available for UCSF500 study patients currently.
+  * Diagnosis information comes from our UCSF Cancer Registry.
+  * You can learn more about this in our [FAQs document](https://ucsf.box.com/s/ctzjuyy6b116275m8b5ct3mcsb2y6viw).
+
+**Internal versus External:**
+  * New variable called 'Internal'with values of either TRUE or FALSE.
+  * UCSF500 tests can be ordered by external clinicians for non-UCSF patients; these patients and their genomic test results are still included in the portal.
+  * This variable categorizes a patient as either a UCSF patient (Internal = TRUE) or non-UCSF patient (Internal = FALSE). 
+  * Only available for UCSF500 study patients currently.
+  *   You can learn more about this in our [FAQs document](https://ucsf.box.com/s/ctzjuyy6b116275m8b5ct3mcsb2y6viw).
+
+**Sample Type for FM Study**
+  * In addition to sample type for the UCSF500 study samples, the release now includes sample type for the FM study samples. 
+
 ## May 5th, 2023: Data refresh, cBioPortal version upgrade, improved vital status, imaging timeline data
 
 **Data Refresh:** cases signed-out prior to 4/01/2023 are in the portal
