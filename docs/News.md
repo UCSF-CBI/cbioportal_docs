@@ -1,4 +1,14 @@
 # News
+## May 22nd, 2024: Data refresh
+
+**Data Refresh:** cases signed-out prior to 5/1/2024 are in the portal
+  * UCSF500 Study: 16,207 patients | 17,636 samples
+  * FM Study: 2,448 patients | 2,602 samples
+  * All clinical data derived from de-identified clinical data warehouse (race, ethnicity, internal versus external) is current up to 1/12/2024.
+  * Vital status, which is collected from multiple sources, is current up to 4/1/2024.
+  * 
+**Version Upgrade:** We are now running v5.4.7 of cBioPortal. See below for summary of features and enhancements added in this version!
+
 ## November 9th , 2023: Data refresh, Diagnosis event, Internal/External patient 
 
 **Data Refresh:** cases signed-out prior to 9/29/2023 are in the portal
